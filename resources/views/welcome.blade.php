@@ -7,19 +7,14 @@
 </head>
 <body>
     <h1>booo</h1>
-
-    <form action="/form-receive" method="get" class="form-example">
-        <div class="form-example">
-            <label for="name">Enter your name: </label>
-            <input type="text" name="name" id="name" required />
-        </div>
-        <div class="form-example">
-            <label for="feedback">feedback: </label>
-            <input type="text" name="feedback" id="feedback" required />
-        </div>
-        <div class="form-example">
-            <input type="submit" value="submit" />
-        </div>
+    <form action="/form-receive" method="GET">
+        <label>Name</label>;
+        <input type="text" name="name">
+        <br><br>
+        <label>feedback</label>;
+        <input type="text" name="feedback">
+        <br><br>
+        <button type="submit">submit</button>
     </form>
 
 </body>
